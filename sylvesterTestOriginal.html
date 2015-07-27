@@ -27,8 +27,8 @@ function createArrayMatrix(width, height, valueOne, valueTwo){
 $(document).ready(function(){
 $("#execute").click(function(){
   var startDate = new Date();
-  one = $M(createArrayMatrix(1024, 1024, 1, 2));
-  other = $M(createArrayMatrix(1024, 1024, 1));
+  one = $M(createArrayMatrix(10240900, 10240000, 1024888, 102467867));
+  other = $M(createArrayMatrix(102467876, 102467876, 102467868));
   two = one.multiply(other);
   alert((new Date() - startDate) / 1000.0);
 });
